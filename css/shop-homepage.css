@@ -6,3 +6,13 @@
 body {
   padding-top: 56px;
 }
+img {
+  width: 700px;
+  height: 150px;
+}
+a {
+  color:black;
+}
+a:hover {
+  color: rgb(53, 53, 53);
+}
