@@ -5,6 +5,9 @@
  */
 body {
   padding-top: 56px;
+  background-image: url('../img/tokyo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }
 /*
 img {
@@ -13,8 +16,19 @@ img {
 }
 */
 a {
-  color:black;
+  color:white;
 }
-a:hover {
-  color: rgb(53, 53, 53);
+a:hover{
+  color:white;
+}
+a.list-group-item {
+  background-color: rgba(92, 92, 92, 0.5);
+  color: white;
+}
+h1{
+  color: white;
+}
+div.card{
+  color: white;
+  background-color: rgba(92, 92, 92, 0.5);
 }
